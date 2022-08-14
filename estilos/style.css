@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(157, 187, 157);
+    font: normal 1.2em Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-image: url('/001-DNR/imagens/fundo.jpg');
+    background-position: center;
+    height: 210px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.39);
+}
+
+header img {
+    width: 350px;
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+
+main {
+    background-color: white;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.37);
+}
+
+main h1 {
+    color: rgb(0, 80, 0);
+    padding: 0px 0px 10px 40px;
+    max-width: 1200px;
+    margin: 0px auto 20px auto;
+    font: bold 2.2em;
+}
+
+main > section {
+    background-color: rgb(197, 197, 197);
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+main > section > div {
+    background-color: white;
+    width: 230px;
+    height: 460px;
+    display: inline-block;
+    margin: 3px 1px 4px 1px;
+}
+
+main > section > div > img {
+    width: 200px;
+    padding: 15px 30px 0px 15px;
+}
+
+main > section > div > pre {
+    text-align: left;
+    font: normal .9em arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgb(24, 66, 7);
+    color: white;
+    font-style: italic;
+    font-size: 1em;
+    text-align: center;
+    padding: 7px;
+}
+
+footer p {
+    margin: 0px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none
+}
+
+footer a:hover {
+    color: rgb(125, 207, 125);
+    text-decoration: underline;
+}
+
+/* testes abaixo */
+
+section#rock {
+    background-color: gray;
+    margin: auto;
+    width: 500px;
+    padding: 10px;
+}
+
+section#rock div {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+}
