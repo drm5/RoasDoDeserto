@@ -48,7 +48,7 @@ main > section {
 main > section > div {
     background-color: white;
     width: 230px;
-    height: 460px;
+    height: 380px;
     display: inline-block;
     margin: 3px 1px 4px 1px;
 }
