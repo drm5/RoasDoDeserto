@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-image: url('/001-DNR/imagens/fundo.jpg');
+    background-image: url('/imagens/fundo.jpg');
     background-position: center;
     height: 210px;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.39);
